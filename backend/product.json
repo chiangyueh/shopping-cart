@@ -1,0 +1,24 @@
+{
+    "results": [
+        {
+            "name": "25Kg",
+            "image": "https://img.alicdn.com/imgextra/i3/728354055/TB2K_l_XsXIxuRkSR0hXXX8kVXa_!!728354055.jpg",
+            "price": 15923
+        },
+        {
+            "name": "20Kg",
+            "image": "https://gd4.alicdn.com/imgextra/i4/728354055/O1CN0182tQHd1fpEa0w2Vwm_!!728354055.png",
+            "price": 13933
+        },
+        {
+            "name": "15Kg",
+            "image": "https://gw.alicdn.com/imgextra/i2/728354055/O1CN01yd0hoJ1fpEZzlaKIk_!!728354055.png",
+            "price": 11445
+        },
+        {
+            "name": "10Kg",
+            "image": "https://gw.alicdn.com/imgextra/i4/728354055/O1CN018apd1D1fpEZsP5T8j_!!728354055.png",
+            "price": 8459
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.countBtn{
+    width : 60%;
+    margin : auto;
+    position: relative;
+    background : #e6d4d4;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    transition : 0.5s
+}
+
+.countBtn span{
+    position: relative;
+    z-index: 1;
+}
+
+.countBtn:hover{
+    background : var(--clr);
+    box-shadow: 0 0 10px var(--clr);
+}
+
+.countBtn:before{
+    content: '';
+    position : absolute;
+    inset : 5px;
+    background: #fff;
+}
+
+.countBtn i{
+    position: absolute;
+    inset : 0;
+    display: block;
+}
+
+.countBtn i::before{
+    content: '';
+    position : absolute;
+    top : 0;
+    right : 15px;
+    height : 5px;
+    width:10px;
+    background: #fff;
+}
+
+.countBtn i::after{
+    content: '';
+    position : absolute;
+    bottom : 0;
+    left : 15px;
+    height : 5px;
+    width:10px;
+    background: #fff;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.deleteBtn{
+    height : 50px;
+    width:50px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 
+    -10px -10px 15px rgba(255,255,255,0.5),
+    10px 10px 15px rgba(70,70,70,0.12);
+    border : 1px solid #ececec;
+}
+
+.deleteBtn:disabled{
+    color : gray
+}
+
+.deleteBtn:enabled:active{
+    box-shadow: 
+    -10px -10px 15px rgba(255,255,255,0.5),
+    10px 10px 15px rgba(70,70,70,0.52),
+    inset -10px -10px 15px rgba(255,255,255,0.5),
+    inset 10px 10px 15px rgba(70,70,70,0.12);
+}
